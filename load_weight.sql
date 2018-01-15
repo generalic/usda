@@ -6,7 +6,8 @@ CREATE TABLE `weight` (
   unit text NOT NULL DEFAULT '',
   eqv float NOT NULL DEFAULT '',
   manufac_name text NOT NULL DEFAULT '',
-  refuse int NOT NULL
+  refuse int NOT NULL,
+  PRIMARY KEY (food_id, weight_id)
 );
 
 .separator "^"
