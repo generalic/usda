@@ -5,8 +5,8 @@ CREATE TABLE `weight` (
   quantity float NOT NULL DEFAULT '',
   unit text NOT NULL DEFAULT '',
   eqv float NOT NULL DEFAULT '',
-  manufac_name text NOT NULL DEFAULT '',
-  refuse int NOT NULL,
+  unused_1 text,
+  unused_2 text,
   PRIMARY KEY (food_id, weight_id)
 );
 
