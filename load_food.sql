@@ -1,7 +1,7 @@
 DROP TABLE IF EXISTS `food`;
 CREATE TABLE `food` (
-  id int PRIMARY KEY NOT NULL,
-  food_group_id int REFERENCES food_group(id) NOT NULL,
+  id text PRIMARY KEY NOT NULL,
+  food_group_id text REFERENCES food_group(id) NOT NULL,
   long_desc text NOT NULL DEFAULT '',
   short_desc text NOT NULL DEFAULT '',
   common_names text NOT NULL DEFAULT '',

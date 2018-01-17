@@ -1,6 +1,6 @@
 DROP TABLE IF EXISTS `nutrient`;
 CREATE TABLE `nutrient` (
-  id int PRIMARY KEY NOT NULL,
+  id text PRIMARY KEY NOT NULL,
   units text NOT NULL,
   tagname text NOT NULL DEFAULT '',
   name text NOT NULL,
